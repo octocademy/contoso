@@ -1,0 +1,24 @@
+[
+    {
+        "language": "en",
+        "messages": [
+            { "id": "MissingDataError", "text": "Missing data. One or more required fields are missing." },
+            { "id": "InvalidDataError", "text": "Invalid data. One or more fields contain invalid data." },
+            { "id": "InvalidPasswordError", "text": "Invalid password. The password is not valid." },
+            { "id": "EntryCreated", "text": "Thank you. Entry created successfully." },
+            { "id": "LoginMessage", "text": "Please enter your username and password." },
+            { "id": "LogoutMessage", "text": "You have been logged out." }
+        ]
+    },
+    {
+        "language": "fr",
+        "messages": [
+            { "id": "MissingDataError", "text": "Données manquantes. Un ou plusieurs champs requis sont manquants." },
+            { "id": "InvalidDataError", "text": "Données invalides. Un ou plusieurs champs contiennent des données invalides." },
+            { "id": "InvalidPasswordError", "text": "Mot de passe invalide. Le mot de passe n'est pas valide." },
+            { "id": "EntryCreated", "text": "Merci. Entrée créée avec succès." },
+            { "id": "LoginMessage", "text": "S'il vous plaît entrez votre nom d'utilisateur et mot de passe." },
+            { "id": "LogoutMessage", "text": "Vous avez été déconnecté." }
+        ]
+    }
+]
