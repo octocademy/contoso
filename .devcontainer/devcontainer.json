@@ -1,19 +1,15 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
     "hostRequirements": {
       "cpus": 4
     },
-    "waitFor": "onCreateCommand",
-    "updateContentCommand": "npm install",
-    "postCreateCommand": "",
     "postAttachCommand": {
-      "server": "npm run dev"
+      "server": "npm install && npm run dev"
     },
     "customizations": {
       "codespaces": {
         "openFiles": [
-		      "src/app/page.tsx",
-		      "src/app/products/[slug]/page.tsx",
+	  "src/app/page.tsx",
+	  "src/app/products/[slug]/page.tsx",
           "src/app/globals.css"
         ]
       }
