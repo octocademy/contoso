@@ -1,0 +1,30 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "hostRequirements": {
+      "cpus": 4
+    },
+    "waitFor": "onCreateCommand",
+    "updateContentCommand": "npm install",
+    "postCreateCommand": "",
+    "postAttachCommand": {
+      "server": "npm dev"
+    },
+    "customizations": {
+      "codespaces": {
+        "openFiles": [
+          "src/app/globals.css",
+		  "src/app/page.tsx",
+		  "src/app/products/[slug]/page.tsx"
+        ]
+      }
+    },
+    "portsAttributes": {
+      "5173": {
+        "label": "Application",
+        "onAutoForward": "openPreview"
+      }
+    },
+    "forwardPorts": [
+      3000
+    ]
+  }
