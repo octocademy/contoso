@@ -7,14 +7,14 @@
     "updateContentCommand": "npm install",
     "postCreateCommand": "",
     "postAttachCommand": {
-      "server": "npm dev"
+      "server": "npm run dev"
     },
     "customizations": {
       "codespaces": {
         "openFiles": [
-          "src/app/globals.css",
-		  "src/app/page.tsx",
-		  "src/app/products/[slug]/page.tsx"
+		      "src/app/page.tsx",
+		      "src/app/products/[slug]/page.tsx",
+          "src/app/globals.css"
         ]
       }
     },
